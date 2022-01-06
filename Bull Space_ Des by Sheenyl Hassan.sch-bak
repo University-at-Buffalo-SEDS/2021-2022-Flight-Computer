@@ -438,34 +438,12 @@ Wire Wire Line
 Wire Wire Line
 	4850 1250 4500 1250
 $Comp
-L power:GND #PWR0107
-U 1 1 61A0D25B
-P 4500 1250
-F 0 "#PWR0107" H 4500 1000 50  0001 C CNN
-F 1 "GND" V 4505 1122 50  0000 R CNN
-F 2 "" H 4500 1250 50  0001 C CNN
-F 3 "" H 4500 1250 50  0001 C CNN
-	1    4500 1250
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR0106
-U 1 1 61A0C806
-P 4550 1350
-F 0 "#PWR0106" H 4550 1200 50  0001 C CNN
-F 1 "+5V" V 4565 1478 50  0000 L CNN
-F 2 "" H 4550 1350 50  0001 C CNN
-F 3 "" H 4550 1350 50  0001 C CNN
-	1    4550 1350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Flight_Computer-cache:Flight-Computer_Adafruit_GPS_THT U2
 U 1 1 619D3495
 P 5350 1050
 F 0 "U2" H 5678 1108 60  0000 L CNN
 F 1 "Flight-Computer_Adafruit_GPS_THT" H 5678 1002 60  0000 L CNN
-F 2 "" H 5350 1050 60  0001 C CNN
+F 2 "KiCad:Flight-Computer_Adafruit_GPS_THT_Footprint" H 5350 1050 60  0001 C CNN
 F 3 "" H 5350 1050 60  0001 C CNN
 	1    5350 1050
 	1    0    0    -1  
@@ -492,7 +470,6 @@ F 3 "" H 7000 3550 50  0001 C CNN
 	1    7000 3550
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 4850 650 
 NoConn ~ 4850 750 
 NoConn ~ 4850 850 
 NoConn ~ 4850 950 
@@ -633,8 +610,6 @@ NoConn ~ 1100 1450
 Wire Wire Line
 	3200 2650 3500 2650
 Wire Wire Line
-	4850 1350 4550 1350
-Wire Wire Line
 	5900 3000 5900 3350
 Wire Wire Line
 	3200 2850 3550 2850
@@ -648,5 +623,30 @@ F 2 "" H 3550 2850 50  0001 C CNN
 F 3 "" H 3550 2850 50  0001 C CNN
 	1    3550 2850
 	0    1    1    0   
+$EndComp
+NoConn ~ 4850 1350
+Wire Wire Line
+	4850 650  4550 650 
+$Comp
+L power:GND #PWR0107
+U 1 1 61A0D25B
+P 4500 1250
+F 0 "#PWR0107" H 4500 1000 50  0001 C CNN
+F 1 "GND" V 4505 1122 50  0000 R CNN
+F 2 "" H 4500 1250 50  0001 C CNN
+F 3 "" H 4500 1250 50  0001 C CNN
+	1    4500 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Flight_Computer-cache:+3.3V #PWR0106
+U 1 1 61A36F42
+P 4550 650
+F 0 "#PWR0106" H 4550 500 50  0001 C CNN
+F 1 "+3.3V" V 4565 778 50  0000 L CNN
+F 2 "" H 4550 650 50  0001 C CNN
+F 3 "" H 4550 650 50  0001 C CNN
+	1    4550 650 
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

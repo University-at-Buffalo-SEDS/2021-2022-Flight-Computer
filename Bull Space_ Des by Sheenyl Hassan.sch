@@ -60,12 +60,12 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J2
 U 1 1 619E4993
-P 10150 4050
-F 0 "J2" H 10230 4042 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 10230 3951 50  0000 L CNN
-F 2 "" H 10150 4050 50  0001 C CNN
-F 3 "~" H 10150 4050 50  0001 C CNN
-	1    10150 4050
+P 10150 4200
+F 0 "J2" H 10230 4192 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 10230 4101 50  0000 L CNN
+F 2 "" H 10150 4200 50  0001 C CNN
+F 3 "~" H 10150 4200 50  0001 C CNN
+	1    10150 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -73,9 +73,9 @@ Wire Wire Line
 Wire Wire Line
 	9950 3800 9650 3800
 Wire Wire Line
-	9950 4050 9650 4050
+	9950 4200 9650 4200
 Wire Wire Line
-	9950 4150 9650 4150
+	9950 4300 9650 4300
 $Comp
 L power:GND #PWR0101
 U 1 1 619F83E3
@@ -85,13 +85,13 @@ F 1 "GND" V 9655 3672 50  0000 R CNN
 F 2 "" H 9650 3800 50  0001 C CNN
 F 3 "" H 9650 3800 50  0001 C CNN
 	1    9650 3800
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
-Text GLabel 9650 4050 0    50   Input ~ 0
+Text GLabel 9650 4200 0    50   Input ~ 0
 BATT+
 Text GLabel 9650 3700 0    50   Input ~ 0
 BATT+
-Text GLabel 9650 4150 0    50   Input ~ 0
+Text GLabel 9650 4300 0    50   Input ~ 0
 12V
 $Comp
 L power:GND #PWR0108
@@ -158,7 +158,7 @@ F 3 "~" H 2850 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Flight_Computer-cache:Memory_Flash_W25Q32JVSS U6
+L Bull-Space_-Des-by-Sheenyl-Hassan-rescue:Memory_Flash_W25Q32JVSS-Flight_Computer-cache U6
 U 1 1 61A2EF12
 P 2100 4750
 F 0 "U6" H 2100 5331 50  0000 C CNN
@@ -223,10 +223,10 @@ F 1 "GND" V 1105 3972 50  0000 R CNN
 F 2 "" H 1100 4100 50  0001 C CNN
 F 3 "" H 1100 4100 50  0001 C CNN
 	1    1100 4100
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Computer-cache:+3.3V #PWR0110
+L Bull-Space_-Des-by-Sheenyl-Hassan-rescue:+3.3V-Flight_Computer-cache #PWR0110
 U 1 1 61A78F07
 P 5900 3000
 F 0 "#PWR0110" H 5900 2850 50  0001 C CNN
@@ -237,7 +237,7 @@ F 3 "" H 5900 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEENSY_4.0:TEENSY_4.0 IC1
+L Bull-Space_-Des-by-Sheenyl-Hassan-rescue:TEENSY_4.0-TEENSY_4.0 IC1
 U 1 1 61A8A5E7
 P 1100 1350
 F 0 "IC1" H 2150 1615 50  0000 C CNN
@@ -271,7 +271,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 2750 3350 2950
 $Comp
-L Flight_Computer-cache:+3.3V #PWR0105
+L Bull-Space_-Des-by-Sheenyl-Hassan-rescue:+3.3V-Flight_Computer-cache #PWR0105
 U 1 1 61A9AD4E
 P 3500 2650
 F 0 "#PWR0105" H 3500 2500 50  0001 C CNN
@@ -313,7 +313,7 @@ F 1 "GND" V 905 1222 50  0000 R CNN
 F 2 "" H 900 1350 50  0001 C CNN
 F 3 "" H 900 1350 50  0001 C CNN
 	1    900  1350
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3350 2950 3350 3150
@@ -321,7 +321,7 @@ Connection ~ 3350 2950
 Wire Wire Line
 	1000 2950 1000 3150
 $Comp
-L Flight_Computer-cache:+3.3V #PWR0114
+L Bull-Space_-Des-by-Sheenyl-Hassan-rescue:+3.3V-Flight_Computer-cache #PWR0114
 U 1 1 61AB9179
 P 950 6000
 F 0 "#PWR0114" H 950 5850 50  0001 C CNN
@@ -340,7 +340,7 @@ F 1 "GND" V 2555 6772 50  0000 R CNN
 F 2 "" H 2550 6900 50  0001 C CNN
 F 3 "" H 2550 6900 50  0001 C CNN
 	1    2550 6900
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2800 6900 2550 6900
@@ -360,7 +360,7 @@ $EndComp
 Wire Wire Line
 	1600 6300 1600 6450
 $Comp
-L XB24CZ7PIT-004:XB24CZ7PIT-004 IC2
+L Bull-Space_-Des-by-Sheenyl-Hassan-rescue:XB24CZ7PIT-004-XB24CZ7PIT-004 IC2
 U 1 1 61ADBD05
 P 2800 6000
 F 0 "IC2" H 4000 6265 50  0000 C CNN
@@ -438,7 +438,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 1250 4500 1250
 $Comp
-L Flight_Computer-cache:Flight-Computer_Adafruit_GPS_THT U2
+L Bull-Space_-Des-by-Sheenyl-Hassan-rescue:Flight-Computer_Adafruit_GPS_THT-Flight_Computer-cache U2
 U 1 1 619D3495
 P 5350 1050
 F 0 "U2" H 5678 1108 60  0000 L CNN
@@ -449,7 +449,7 @@ F 3 "" H 5350 1050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Computer-cache:+3.3V #PWR0103
+L Bull-Space_-Des-by-Sheenyl-Hassan-rescue:+3.3V-Flight_Computer-cache #PWR0103
 U 1 1 61B21AA3
 P 2100 3950
 F 0 "#PWR0103" H 2100 3800 50  0001 C CNN
@@ -460,7 +460,7 @@ F 3 "" H 2100 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Computer-cache:+3.3V #PWR0117
+L Bull-Space_-Des-by-Sheenyl-Hassan-rescue:+3.3V-Flight_Computer-cache #PWR0117
 U 1 1 61B23355
 P 7000 3550
 F 0 "#PWR0117" H 7000 3400 50  0001 C CNN
@@ -488,7 +488,7 @@ Wire Wire Line
 Text GLabel 900  2450 0    50   Input ~ 0
 FL-CS
 $Comp
-L Flight_Computer-cache:Regulator_Linear_AP2204RB-3.3 U1
+L Bull-Space_-Des-by-Sheenyl-Hassan-rescue:Regulator_Linear_AP2204RB-3.3-Flight_Computer-cache U1
 U 1 1 61B3E0D1
 P 7950 3550
 F 0 "U1" H 7950 3792 50  0000 C CNN
@@ -636,10 +636,10 @@ F 1 "GND" V 4505 1122 50  0000 R CNN
 F 2 "" H 4500 1250 50  0001 C CNN
 F 3 "" H 4500 1250 50  0001 C CNN
 	1    4500 1250
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Computer-cache:+3.3V #PWR0106
+L Bull-Space_-Des-by-Sheenyl-Hassan-rescue:+3.3V-Flight_Computer-cache #PWR0106
 U 1 1 61A36F42
 P 4550 650
 F 0 "#PWR0106" H 4550 500 50  0001 C CNN
