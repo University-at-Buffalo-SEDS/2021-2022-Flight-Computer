@@ -137,7 +137,7 @@
 
   (footprint "KiCad:TEENSY40" (layer "F.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-0000619f0a58)
-    (at 134.62 115.57)
+    (at 81.28 114.3)
     (descr "TEENSY 4.0-4")
     (tags "Integrated Circuit")
     (path "/00000000-0000-0000-0000-000061a8a5e7")
@@ -243,7 +243,7 @@
 
   (footprint "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y" (layer "F.Cu")
     (tedit 5D9F7937) (tstamp 00000000-0000-0000-0000-0000619f0a77)
-    (at 153.67 83.82 90)
+    (at 165.1 114.3 90)
     (descr "LGA, 14 Pin (http://www.st.com/resource/en/datasheet/lsm303dlhc.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "LGA NoLead")
     (path "/00000000-0000-0000-0000-0000619da97b")
@@ -309,7 +309,7 @@
 
   (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 00000000-0000-0000-0000-0000619f0ab3)
-    (at 153.67 121.92)
+    (at 147.32 142.24)
     (descr "SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (path "/00000000-0000-0000-0000-000061a2ef12")
@@ -369,7 +369,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 00000000-0000-0000-0000-0000619f1b53)
-    (at 146.05 87.63 180)
+    (at 142.24 99.06 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path "/00000000-0000-0000-0000-0000619ec46c")
@@ -409,7 +409,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 00000000-0000-0000-0000-0000619f1b64)
-    (at 146.05 85.12 180)
+    (at 154.94 78.74 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path "/00000000-0000-0000-0000-000061b46ff6")
@@ -449,7 +449,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-89-3" (layer "F.Cu")
     (tedit 5C33D6E8) (tstamp 00000000-0000-0000-0000-0000619f1bae)
-    (at 153.67 90.17 -90)
+    (at 182.88 81.28 -90)
     (descr "SOT-89-3, http://ww1.microchip.com/downloads/en/DeviceDoc/3L_SOT-89_MB_C04-029C.pdf")
     (tags "SOT-89-3")
     (path "/00000000-0000-0000-0000-000061b3e0d1")
@@ -506,7 +506,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 00000000-0000-0000-0000-0000619f2166)
-    (at 161.29 120.65 -90)
+    (at 157.48 129.54 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path "/00000000-0000-0000-0000-0000619e8e3a")
@@ -546,7 +546,7 @@
 
   (footprint "KiCad:XB24CAPIT-001" (layer "F.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-0000619f477f)
-    (at 162.56 86.36 -90)
+    (at 206.77 109.702955 -90)
     (descr "Digi XBee 802.15.4")
     (tags "Integrated Circuit")
     (path "/00000000-0000-0000-0000-000061adbd05")
@@ -620,7 +620,7 @@
 
   (footprint "KiCad:Flight-Computer_Adafruit_GPS_THT_Footprint" (layer "F.Cu")
     (tedit 61A29F80) (tstamp 00000000-0000-0000-0000-000061a309da)
-    (at 134.62 130.81 -90)
+    (at 99.917 142.24 -90)
     (path "/00000000-0000-0000-0000-0000619d3495")
     (attr through_hole)
     (fp_text reference "U2" (at 0.508 2.032 90) (layer "F.SilkS")
@@ -663,7 +663,7 @@
 
   (footprint "Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering" (layer "F.Cu")
     (tedit 5A2F92D2) (tstamp 00000000-0000-0000-0000-000061a30fe4)
-    (at 139.7 86.36)
+    (at 119.38 86.36)
     (descr "LGA-8, https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001-18.pdf")
     (tags "lga land grid array")
     (path "/00000000-0000-0000-0000-0000619dc8e1")

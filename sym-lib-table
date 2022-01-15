@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name Bull-Space_-Des-by-Sheenyl-Hassan-rescue)(type Legacy)(uri "${KIPRJMOD}/Bull Space_ Des by Sheenyl Hassan-rescue.lib")(options "")(descr ""))
+  (lib (name "Flight-Computer")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Flight-Computer.kicad_sym")(options "")(descr ""))
 )

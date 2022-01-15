@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name KiCad)(type KiCad)(uri ${KIPRJMOD}/LIB_TEENSY_4.0/TEENSY_4.0/KiCad.pretty)(options "")(descr ""))
+  (lib (name "Flight Computer")(type "KiCad")(uri "${KIPRJMOD}/Flight_Computer.pretty")(options "")(descr ""))
 )
