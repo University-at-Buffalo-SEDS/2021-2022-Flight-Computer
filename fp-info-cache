@@ -1,4 +1,4 @@
-19796566221518468
+19803135348039659
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51428,6 +51428,34 @@ emi filter
 0
 5
 5
+Flight Computer
+Adafruit_ADXL345_THT
+
+
+0
+9
+9
+Flight Computer
+Teensy40
+
+
+0
+44
+44
+Flight Computer
+VXO7803-1000
+TO-220, Horizontal, RM 2.54mm
+TO-220 Horizontal RM 2.54mm
+0
+3
+3
+Flight Computer
+XBEE_PRO_PTH
+
+
+0
+20
+20
 Fuse
 Fuse_0402_1005Metric
 Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
