@@ -1632,7 +1632,6 @@
   )
 
   (bus_alias "SPI" (members "SCK" "MOSI" "MISO" "BMP-CS" "ADXL-CS" "FL-CS"))
-
   (junction (at 149.86 139.7) (diameter 0) (color 0 0 0 0)
     (uuid 06d7bf71-2250-4120-bad0-46bf6aa6e82f)
   )
@@ -2763,7 +2762,7 @@
     (property "Reference" "U3" (id 0) (at 163.6776 122.0216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ADXL343" (id 1) (at 163.6776 124.333 0)
+    (property "Value" "ADXL345" (id 1) (at 163.6776 124.333 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y" (id 2) (at 149.86 123.19 0)
@@ -3966,7 +3965,7 @@
       (reference "U2") (unit 1) (value "Flight-Computer_Adafruit_GPS_THT") (footprint "Flight Computer:Adafruit_GPS_THT")
     )
     (path "/00000000-0000-0000-0000-0000619da97b"
-      (reference "U3") (unit 1) (value "ADXL343") (footprint "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y")
+      (reference "U3") (unit 1) (value "ADXL345") (footprint "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y")
     )
     (path "/00000000-0000-0000-0000-0000619dc8e1"
       (reference "U4") (unit 1) (value "BMP280") (footprint "Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering")
