@@ -1,4 +1,4 @@
-19804793922442578
+19809737449156335
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51443,12 +51443,33 @@ Adafruit_GPS_THT
 9
 9
 Flight Computer
+SEDS_logo_soldermask
+
+
+0
+0
+0
+Flight Computer
 Teensy40
 
 
 0
 34
 34
+Flight Computer
+UB-SEDS-Logo
+
+
+0
+0
+0
+Flight Computer
+UBSEDS_Logo
+
+
+0
+0
+0
 Flight Computer
 VXO7803-1000
 TO-220, Horizontal, RM 2.54mm
