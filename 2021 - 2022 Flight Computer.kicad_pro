@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 2.7,
+          "height": 2.7,
+          "width": 2.7
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -352,7 +352,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Bull Space_ Des by Sheenyl Hassan.kicad_pro",
+    "filename": "2021 - 2022 Flight Computer.kicad_pro",
     "version": 1
   },
   "net_settings": {
